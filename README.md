@@ -7,10 +7,15 @@ This project explores the use of AI and pose estimation to classify human walkin
 The system extracts statistical features from walking videos using MediaPipe for pose estimation, such as:
 
 Mean
+
 Standard Deviation
+
 Maximum
+
 Minimum
+
 Median
+
 These features are calculated separately for the left leg, right leg, left arm, right arm, etc. to capture walking dynamics.
 
 ### Methodology
@@ -23,8 +28,11 @@ A Random Forest Classifier was trained on the extracted features to distinguish 
 This project can be extended to analyze human behavior in:
 
 Sports Analytics
+
 Healthcare Monitoring
+
 Security Systems
+
 Human-Computer Interaction
 
 ### Future Scope 🚀
